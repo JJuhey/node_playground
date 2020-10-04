@@ -5,9 +5,9 @@ import dog from '../../assets/cutedog.jpeg'
 function MainPage() {
   return (
     <div>
-      <Header as='h1'>
+      {/* <Header as='h1'>
         THIS IS MAIN PAGE!
-      </Header>
+      </Header> */}
       <br/>
       <img style={{ width: '100%' }} src={dog} alt='dog'/>
     </div>

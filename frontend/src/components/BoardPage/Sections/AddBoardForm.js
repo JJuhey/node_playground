@@ -3,7 +3,7 @@ import { Form, Button } from 'semantic-ui-react'
 
 function AddBoardForm() {
   return (
-    <div style={{ marginTop: '50px', textAlign: 'left' }}>
+    <div style={{ textAlign: 'left' }}>
       <Form>
         <Form.Group>
           <Form.Input fluid label='Title' width={12}></Form.Input>

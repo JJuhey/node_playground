@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Table, Button } from 'semantic-ui-react'
+import { Table, Button, Divider, Header } from 'semantic-ui-react'
 import AddBoardForm from './Sections/AddBoardForm'
 
 function BoardPage() {
@@ -49,7 +49,13 @@ function BoardPage() {
           </Table.Row>
         </Table.Footer>
       </Table>
-      { ShowAddBoard && <AddBoardForm/> }
+      { ShowAddBoard && (
+        <div style={{ marginTop: '50px' }} >
+          <Header style={{ textAlign: 'left' }}>게시글 추가하기</Header>
+          <Divider/>
+          <AddBoardForm/>
+        </div>
+      )}
     </div>
   )
 }
