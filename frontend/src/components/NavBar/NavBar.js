@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import { Menu } from 'semantic-ui-react'
 
-function NavBar() {
+function NavBar({ history }) {
   const [ActiveItem, setActiveItem] = useState('')
 
   const onClickFirstMenu = () => {
     setActiveItem('first')
+    window.location.href='/board'
   }
   const onClickSecondMenu = () => {
     setActiveItem('second')

@@ -1,10 +1,11 @@
 import React from 'react'
+import { Header } from 'semantic-ui-react'
 
 function MainPage() {
   return (
-    <div>
-      This is MainPage!
-    </div>
+    <Header as='h1'>
+      THIS IS MAIN PAGE!
+    </Header>
   )
 }
 
