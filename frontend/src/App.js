@@ -18,10 +18,12 @@ function App() {
         <Divider/>
         <NavBar/>
       </Container>
-      <Switch>
-        <Route exact path='/' component={MainPage} />
-        <Route exact path='/board' component={BoardPage} />
-      </Switch>
+      <Container>
+        <Switch>
+          <Route exact path='/' component={MainPage} />
+          <Route exact path='/board' component={BoardPage} />
+        </Switch>
+      </Container>
     </div>
   );
 }

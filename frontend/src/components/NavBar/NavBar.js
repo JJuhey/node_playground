@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Menu } from 'semantic-ui-react'
 
-function NavBar({ history }) {
+function NavBar() {
   const [ActiveItem, setActiveItem] = useState('')
 
   const onClickFirstMenu = () => {
