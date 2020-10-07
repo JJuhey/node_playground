@@ -5,7 +5,7 @@ import NavBar from './components/NavBar/NavBar'
 import MainPage from './components/MainPage/MainPage'
 import BoardPage from './components/BoardPage/BoardPage'
 
-function App() {
+const App: React.FC =() => {
   const onClickHome = () => {
     window.location.href='/'
   }
