@@ -6,6 +6,7 @@ function NavBar() {
 
   const onClickFirstMenu = () => {
     setActiveItem('first')
+    window.location.href='/board'
   }
   const onClickSecondMenu = () => {
     setActiveItem('second')
