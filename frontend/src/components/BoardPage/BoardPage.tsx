@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Table, Button, Divider, Header } from 'semantic-ui-react'
 import AddBoardForm from './Sections/AddBoardForm'
 
-function BoardPage() {
+const BoardPage: React.FC = () => {
   const [ShowAddBoard, setShowAddBoard] = useState(false)
 
   const toggleAddBoard = () => {
@@ -26,7 +26,9 @@ function BoardPage() {
         <Table.Body>
           {dummyData.map(data => {
             return (
-              <Table.Row>
+              <Table.Row
+                key={data.no}
+              >
                 <Table.Cell>{data.no}</Table.Cell>
                 <Table.Cell>{data.title}</Table.Cell>
                 <Table.Cell>{data.writer}</Table.Cell>

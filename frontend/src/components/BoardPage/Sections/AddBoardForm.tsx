@@ -1,7 +1,7 @@
 import React from 'react'
 import { Form, Button } from 'semantic-ui-react'
 
-function AddBoardForm() {
+const AddBoardForm: React.FC = () => {
   return (
     <div style={{ textAlign: 'left' }}>
       <Form>
