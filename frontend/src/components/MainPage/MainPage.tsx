@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from 'semantic-ui-react'
+// import { Header } from 'semantic-ui-react'
 import dog from '../../assets/cutedog.jpeg'
 
 const MainPage: React.FC = () => {
